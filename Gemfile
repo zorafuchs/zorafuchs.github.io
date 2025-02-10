@@ -8,12 +8,12 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "minima", "~> 2.5"
+gem 'jekyll-theme-yat'
 
-gem "webrick"
+gem 'webrick'
 
 group :jekyll_plugins do
-  gem "github-pages"
-  gem "jekyll-feed", "~> 0.12"
+  gem 'github-pages'
+  gem 'jekyll-feed'
 end
 
